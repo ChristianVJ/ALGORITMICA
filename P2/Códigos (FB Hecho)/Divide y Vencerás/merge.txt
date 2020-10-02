@@ -1,0 +1,28 @@
+m=tamaño del vector1
+n=tamaño del vector2
+int m,n,i=0,j=0,k=0,p;
+
+
+while( i < m && j < n ){
+    if( vec1[i] <= vec2[j] ){
+        mezcla[k]=vec1[i];
+        i++;
+    }
+    else{
+        mezcla[k]=vec2[j];
+        j++;
+    }
+    k++;
+}
+if( i>= m){
+    for( p=j; p < n; p++){
+        mezcla[k]=vec2[p];
+        k++;
+    }
+}
+if( j>=n ){
+    for( p=i; p < m; p++ ){
+        mezcla[k]=vec1[p];
+        k++;
+    }
+}

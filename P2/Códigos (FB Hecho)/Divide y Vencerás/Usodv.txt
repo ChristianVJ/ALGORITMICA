@@ -1,0 +1,6 @@
+Compilar : g++ genera-mezclavectores.cpp -o mezcla
+Generar entrada: ./mezcla 10 10
+Compilar: g++ -o recursivo recursivo.cpp -std=c++0x
+Usar entrada: ./recursivo mezcla.txt
+
+

@@ -1,0 +1,5 @@
+Compilar : g++ genera-mezclavectores.cpp -o mezcla
+Generar entrada: ./mezcla 10 10
+Compilar: g++ -o fuerza_bruta_tiempo fuerza_bruta_tiempos.cpp -std=c++0x
+Usar entrada: ./fuerza_bruta_tiempo mezcla.txt
+
